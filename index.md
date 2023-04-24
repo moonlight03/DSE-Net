@@ -1,37 +1,54 @@
-## DSE-Net
+## Style Separable Artistic Font Dataset
+  ![](imgs/900.jpg)
+* **Description:** This is a large-scale style separable artistic font dataset. It contains 900 categories, each of which contains 1,024 characters, 972 Chinese characters and 52 English characters. The 900 categories of artistic fonts are composed of 30 glyphs and text effects. This dataset also contains a baseline glyph dataset containing the corresponding fonts for the artistic font datasets. This dataset provides the first systematic division of glyphs:  standard print (SP), creative print (CP), brush calligraphy (CG), and handwriting (HW). This dataset also provides Unicode encoding for characters as a unique annotation for each character.
 
-You can use the [editor on GitHub](https://github.com/moonlight03/DSE-Net/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+* **Size:**  50.8GB.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* **Major component description:**  The artistic font dataset and the baseline font dataset. 
 
-### Markdown
+* **Detailed setup instructions:** 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  * For the glyph, we use "CG", "CP", "HW", "SP" to indicate the first level of classification of glyphs, the initials of glyph name to uniquely identify a glyphs, such as "BSXJ".  
+  * For the text effect,  we use the Arabic numerals to mark their types, such as "1", "2",...,"30".
 
-```markdown
-Syntax highlighted code block
+  ```
+  SSAF
+  |--- artistic
+  |	  |--- CG_BSXJ-1
+  |	 	    |--- 0001.png
+  |	 	    |--- ...
+  |	  |--- CG_BSXJ-2
+  |	 	    |--- 0001.png
+  |	 	    |--- ...
+  |	  |--- ...
+  |	  |--- SP_KAITI-1
+  |	 	    |--- 0001.png
+  |	 	    |--- ...
+  |	  |--- SP_KAITI-2
+  |	 	    |--- 0001.png
+  |	 	    |--- ...
+  |	  |--- ...
+  |--- glyph
+  |	  |--- CG_BSXJ
+  |	 	    |--- 0001.png
+  |	 	    |--- ...
+  |	  |--- CP_XS24
+  |	 	    |--- 0001.png
+  |	 	    |--- ...
+  |	  |--- HW_ZMJXL
+  |	 	    |--- 0001.png
+  |	 	    |--- ...
+  |	  |--- ...
+  |--- unicode
+  |	  |--- char.txt
+  ```
 
-# Header 1
-## Header 2
-### Header 3
+  ![](imgs/tip.bmp)
 
-- Bulleted
-- List
+* **Downolad**  (SSAF examples): 
 
-1. Numbered
-2. List
+  * [Baidu Drive](https://pan.baidu.com/s/1IYTpFXxZKYREKTLQ1El79w?pwd=3hc7 )
+  * [Google Drive](https://drive.google.com/file/d/1KsCmwg3yX0uAgjUe7rKJ8oYctIUO4LIz/view?usp=sharing) 
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/moonlight03/DSE-Net/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* **Contact information:**  17561841398@163.com
