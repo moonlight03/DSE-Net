@@ -1,6 +1,6 @@
 ## HQMS Dataset
   ![](imgs/900.jpg)
-* **Description:** This is a high-quality and multi-style artistic font dataset. It contains 900 categories, each of which contains 1,024 characters, 972 Chinese characters and 52 English characters. The 900 categories of artistic fonts are composed of 30 glyphs and text effects. This dataset also contains a baseline glyph dataset containing the corresponding fonts for the artistic font datasets. This dataset provides the first systematic division of glyphs:  standard print (SP), creative print (CP), brush calligraphy (CG), and handwriting (HW). This dataset also provides Unicode encoding for characters as a unique annotation for each character.
+* **Description:** This is a high-quality and multi-style artistic font dataset. It contains 900 categories, each of which contains 1,024 characters, 972 Chinese characters and 52 English characters. The 900 categories of artistic fonts are composed of 30 glyphs and text effects. This dataset also contains the basic glyph data and the corresponding artistic font data. This dataset provides the first systematic division of glyphs:  standard print (SP), creative print (CP), brush calligraphy (CG), and handwriting (HW). This dataset also provides Unicode encoding for characters as a unique annotation for each character.
 
 * **Size:**  50.8GB.
 
