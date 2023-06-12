@@ -2,7 +2,7 @@
 # DSE-Net
 The project includes the source codes for DSE-Net, as well as the SSAF dataset access entry.
 ## Dataset
-The [SSAF](https://moonlight03.github.io/DSE-Net/) dataset will be published here later.
+The [SSAF（HQMS）](https://moonlight03.github.io/DSE-Net/) dataset will be published here later.
 ## Bibtex
 ```
 @inproceedings{li2022dse,
