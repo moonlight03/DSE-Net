@@ -1,4 +1,4 @@
-## HQMS Dataset
+## SSAF Dataset
   ![](imgs/900.jpg)
 * **Description:** This is a high-quality and multi-style artistic font dataset. It contains 900 categories, each of which contains 1,024 characters, 972 Chinese characters and 52 English characters. The 900 categories of artistic fonts are composed of 30 glyphs and text effects. This dataset also contains the basic glyph data and the corresponding artistic font data. This dataset provides the first systematic division of glyphs:  standard print (SP), creative print (CP), brush calligraphy (CG), and handwriting (HW). This dataset also provides Unicode encoding for characters as a unique annotation for each character.
 
@@ -12,7 +12,7 @@
   * For the text effect,  we use the Arabic numerals to mark their types, such as "1", "2",...,"30".
 
   ```
-  HQMS
+  SSAF
   |--- artistic
   |	  |--- CG_BSXJ-1
   |	 	    |--- 0001.png
@@ -45,7 +45,7 @@
 
   ![](imgs/tip.bmp)
 
-* **Downolad**  (HQMS examples): 
+* **Downolad**  (SSAF examples): 
 
   * [Baidu Drive](https://pan.baidu.com/s/1EFLGSkQ24WcYnZefWRIDyQ?pwd=4jom)
   * [Google Drive](https://drive.google.com/file/d/1KsCmwg3yX0uAgjUe7rKJ8oYctIUO4LIz/view?usp=sharing) 
